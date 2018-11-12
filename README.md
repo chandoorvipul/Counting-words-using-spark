@@ -22,27 +22,32 @@ Source: [Rubick's Cube Wikipedia](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
 ``` Scala 
     val text = sc.textFile("Datasets_Rubik'sCube.txt")
 ````
+
 2. Spliting the dataset dividing with ",". 
 ``` Scala 
     val filtereddata = text.flatMap(_.split(" "))
-
 ````
+
 3. Filtering the dataset with RegEx commands 
 ``` Scala 
     val filtereddata2 = filtereddata.filter(_.matches("^[a-zA-Z]*$"))
 ````
+
 4. Filtering all the text and remaining will be only alphabets 
 ``` Scala 
     val filtereddata3 = filtereddata2.filter(_.length >= 1)
 ````
+
 5. Making it into Tuple
 ``` Scala 
     var mapout = filtereddata3.map((_,1))
 ````
+
 6. Reducer
 ``` Scala 
     val reducerout = mapout.reduceByKey(_ + _)
 ````
+
 7. making key to value  and value to key
 ``` Scala 
     var sortedout = reducerout.map { case (key,value) => (value,key) }
@@ -51,6 +56,7 @@ Source: [Rubick's Cube Wikipedia](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
 ``` Scala 
     sortedout = sortedout.sortByKey(false)
 ````
+
 9. Taking only 1st 20 words
 ``` Scala 
     sortedout.take(20)
