@@ -83,4 +83,5 @@ Source: [Rubick's Cube Wikipedia](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
 | each   | 4     |
 
 ![Screen Shot](https://github.com/chandoorvipul/Spark_Project_Chandoor/blob/master/Images/Screenshot.PNG)
-
+ 
+ [Link to the Hosted Site](https://chandoorvipul.github.io/Spark_Project_Chandoor/.) 
