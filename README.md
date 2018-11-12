@@ -18,49 +18,48 @@ The dataset contains about the Rubick's Cube. the source of dataset is Wikipedia
 Source: [Rubick's Cube Wikipedia](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
 
 ## Commands
-1.
-``` Scala 
-     val text = sc.textFile("Datasets_Rubik'sCube.txt")
-````
-2.
+1. Reading the dataset from the text file  
 ``` Scala 
     val text = sc.textFile("Datasets_Rubik'sCube.txt")
 ````
-3.
+2. Spliting the dataset dividing with ",". 
 ``` Scala 
     val filtereddata = text.flatMap(_.split(" "))
 
 ````
-4.
+3. Filtering the dataset with RegEx commands 
 ``` Scala 
     val filtereddata2 = filtereddata.filter(_.matches("^[a-zA-Z]*$"))
 ````
-5.
+4. Filtering all the text and remaining will be only alphabets 
 ``` Scala 
     val filtereddata3 = filtereddata2.filter(_.length >= 1)
 ````
-6.
+5. Making it into Tuple
 ``` Scala 
     var mapout = filtereddata3.map((_,1))
 ````
-7.
+6. Reducer
 ``` Scala 
     val reducerout = mapout.reduceByKey(_ + _)
 ````
-8.
+7. making key to value  and value to key
 ``` Scala 
     var sortedout = reducerout.map { case (key,value) => (value,key) }
 ````
-9.
+8. Sorting the output
 ``` Scala 
     sortedout = sortedout.sortByKey(false)
 ````
-10.
+9. Taking only 1st 20 words
 ``` Scala 
     sortedout.take(20)
 ````
 
 ## Results 
+
+My dataset is about Rubik's Cube. 
+there are many words which are repeated many times. Word "THE" is used 42 times in the whole dataset, Word "AND" is used for 22 times and many other words for mant times. 
 
 | Word   | Count |
 |--------|-------|
