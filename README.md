@@ -1,4 +1,4 @@
-#Vipul Chandoor
+# Vipul Chandoor
 
 # Spark Project - Rubik's Cube
 
@@ -85,6 +85,6 @@ Source: [Rubick's Cube Wikipedia](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
 | his    | 4     |
 | each   | 4     |
 
-![Screenshot](https://github.com/chandoorvipul/Spark_Project_Chandoor/blob/master/Images/Screenshot.PNG)
+![Screenshot](https://raw.githubusercontent.com/chandoorvipul/Spark_Project_Chandoor/blob/master/Images/Screenshot.PNG)
  
- [Link to the Hosted Site](https://chandoorvipul.github.io/Spark_Project_Chandoor/.)  : https://chandoorvipul.github.io/Spark_Project_Chandoor/.
+Link to the Hosted Site : [https://chandoorvipul.github.io/Spark_Project_Chandoor/.](https://chandoorvipul.github.io/Spark_Project_Chandoor/.)
