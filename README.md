@@ -91,6 +91,6 @@ there are many words which are repeated many times. Word "THE" is used 42 times 
 | each   | 4     |
 
 
-<img src = "images\Screenshot.png">
+<img src = "Images\Screenshot.PNG">
  
 Link to the Hosted Site : [https://chandoorvipul.github.io/Spark_Project_Chandoor/.](https://chandoorvipul.github.io/Spark_Project_Chandoor/.)
