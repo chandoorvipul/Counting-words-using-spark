@@ -1,4 +1,7 @@
+#Vipul Chandoor
+
 # Spark Project - Rubik's Cube
+
 ## About Me
 This is Vipul Chandoor, Working as Graduate Assistant in Student Involvment Center for Student Activities Council. My major is Applied Computer Science in Northwest Missouri State University I will graduate in Spring 2019. 
 
@@ -82,6 +85,6 @@ Source: [Rubick's Cube Wikipedia](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
 | his    | 4     |
 | each   | 4     |
 
-![Screen Shot](https://github.com/chandoorvipul/Spark_Project_Chandoor/blob/master/Images/Screenshot.PNG)
+![Screenshot](https://github.com/chandoorvipul/Spark_Project_Chandoor/blob/master/Images/Screenshot.PNG)
  
- [Link to the Hosted Site](https://chandoorvipul.github.io/Spark_Project_Chandoor/.) 
+ [Link to the Hosted Site](https://chandoorvipul.github.io/Spark_Project_Chandoor/.)  : https://chandoorvipul.github.io/Spark_Project_Chandoor/.
